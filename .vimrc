@@ -1,3 +1,8 @@
+if v:version < 802
+      packadd! dracula
+endif
+syntax enable
+colorscheme dracula
 
 syntax on
 
@@ -29,7 +34,6 @@ set splitbelow
 set foldmethod=syntax
 set splitright
 let python_highlight_all=1
-colorscheme koehler 
 
 " PLUGINS ---------------------------------------------------------------- {{{
 call plug#begin('~/.vim/plugged')
