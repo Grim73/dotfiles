@@ -79,3 +79,4 @@ noremap <c-down> <c-w>-
 noremap <c-left> <c-w>>
 noremap <c-right> <c-w><
 " }}}
+nnoremap <Leader>sv :source $MYVIMRC<CR>
